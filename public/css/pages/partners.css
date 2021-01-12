@@ -1,0 +1,111 @@
+@import '../main.css';
+
+@media screen and (max-width: 768px) {
+    .partners {
+        margin: 0px 0px !important;
+    }
+
+    .partners .p-list .p-block .p-head .logo img {
+        max-width: 8em !important;
+    }
+
+    .partners .p-list .p-block {
+        margin: 0px !important;
+    }
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 10em;
+}
+
+.partners .title {
+    color: #930625;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-decoration: underline;
+}
+
+.partners .p-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.partners .p-list .p-block {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 6px 4px 10px 0px rgba(147, 6, 37, 0.4);
+    -moz-box-shadow: 6px 4px 10px 0px rgba(147, 6, 37, 0.4);
+    box-shadow: 6px 4px 10px 0px rgba(147, 6, 37, 0.4);
+    padding: 2em;
+    margin: 1.5em;
+    border-radius: 20px 60px 20px 60px;
+}
+
+.partners .p-list .p-block:hover {
+    -webkit-box-shadow: 6px 4px 10px 5px rgba(147, 6, 37, 0.4);
+    -moz-box-shadow: 6px 4px 10px 5px rgba(147, 6, 37, 0.4);
+    box-shadow: 6px 4px 10px 5px rgba(147, 6, 37, 0.4);
+    transition: 0.5s;
+}
+
+.partners .p-list .p-block .p-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.partners .p-list .p-block .p-head .logo img {
+    max-width: 15em;
+    padding: 1em;
+    border: 1px solid #930625;
+}
+
+.partners .p-list .p-block .p-head .name {
+    margin: 1.5em auto 0.5em auto;
+}
+
+.partners .p-list .p-block .p-head .name p {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #930625;
+    font-weight: 800;
+}
+
+.partners .p-list .p-block .text p {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.partners .p-list .p-block .table-head {
+    margin: 10px auto;
+}
+
+.partners .p-list .p-block .table-head h4 {
+    color: #930625;
+    font-size: 20px;
+}
+
+.partners .p-list .p-block .table-row{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4,1fr );
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.partners .p-list .p-block .table-row div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.partners .p-list .p-block .table-row div a{
+    color: black
+}

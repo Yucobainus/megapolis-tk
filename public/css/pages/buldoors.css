@@ -1,0 +1,81 @@
+@import '../main.css';
+
+.buldoors{
+    margin: 30px 100px 0px 100px;
+}
+
+.buldoors .wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.buldoors .wrapper hr{
+    margin: 30px 0px;
+    height: 5px;
+    background-color: #930625;
+    border: none
+}
+
+.buldoors .wrapper .pr-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.buldoors .wrapper .pr-row .left-part{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+
+.buldoors .wrapper .pr-row .left-part .seria{
+    transform: translate(5%);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buldoors .wrapper .pr-row .left-part .seria h3{
+    color: #930625;
+}
+
+.buldoors .wrapper .pr-row .left-part .pr-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+.buldoors .wrapper .pr-row .left-part .pr-line .product{
+    margin: 0px 0px 0px 30px;
+}
+
+.buldoors .wrapper .pr-row .right-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.buldoors .wrapper .pr-row .right-part .price{
+    font-size: 30px;
+    flex-basis: 88%;
+}
+
+.buldoors .wrapper .pr-row .right-part .price p{
+    color: #930625;
+    font-weight: 500;
+}
+
+.buldoors .wrapper .pr-row .right-part .btn-wrapper{
+    flex-basis: 12%;
+}
+.buldoors .wrapper .pr-row .right-part .more{
+    padding: 10px;
+    background-color: #930625;
+    text-align: center;
+}
+
+.buldoors .wrapper .pr-row .right-part .more a{
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+}

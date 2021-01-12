@@ -1,0 +1,112 @@
+@import '../main.css';
+
+@media screen and (max-width: 650px) {
+    .production .prod-wrapper .prod-options form{
+        flex-direction: column !important;
+    }
+
+    .production .prod-wrapper .prod-options form .o-block{
+        margin: 5px 0px !important;
+    }
+
+}
+
+.production .prod-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.production .prod-wrapper .prod-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.production .prod-wrapper .not-found{
+    text-align: center;
+}
+
+.production .prod-wrapper .not-found h2{
+    margin: 25vh auto;
+    color: #930625;
+}
+
+.production .prod-wrapper .prod-row .prod-line{
+    display: grid;
+    grid-gap: 10px;
+    /*grid-template-columns: 18em 18em 18em;*/
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 20px 15px;
+}
+
+.production .prod-wrapper .prod-options{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(229,37,70,1);
+    padding: 20px;
+    border-radius: 60px;
+    justify-content: center;
+}
+
+.production .prod-wrapper .prod-options form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.production .prod-wrapper .prod-options form .o-block {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 1em;
+}
+
+.production .prod-wrapper .prod-options form .o-block p{
+    margin: auto 5px;
+    font-size: 0.9em;
+    color:white;
+}
+
+.production .prod-wrapper .prod-options form .o-block select{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.production .prod-wrapper .prod-options form .o-block input {
+    padding: 0.2em;
+    outline: none;
+    border: none;
+    margin: 0px 5px;
+    border-radius: 20px;
+}
+
+.production .prod-wrapper .prod-options form .o-block .submit {
+    color: #930625;
+    padding: 10px;
+    border-radius: 50px;
+}
+.production .prod-wrapper .prod-options form .o-block label {
+    margin:0px 0.5em;
+}
+
+.production .prod-wrapper .type-title{
+    display: flex;
+    justify-content: center;
+}
+
+.production .prod-wrapper .type-title h2{
+    color:#e52646;
+    font-size: 30px;
+    border-radius: 60px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.production .prod-wrapper .type-title h4{
+    color:#e52646;
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+

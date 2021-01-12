@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px) {
+    footer .footer-wrapper {
+        flex-direction: column !important;
+    }
+    footer .footer-wrapper .logo-part img {
+        max-width: 150px !important;
+    }
+
+    footer .footer-wrapper{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    footer .footer-wrapper .contact{
+        flex-direction: column !important;
+    }
+    
+    footer .footer-wrapper .contact .a{
+        margin: 0px auto !important;
+    }
+
+    footer .footer-wrapper .contact .b{
+        margin: 5px auto !important;
+        flex-direction: row !important;
+    }
+    footer .footer-wrapper .contact .b a img{
+        margin: 5px 10px !important
+    }
+    footer .footer-wrapper .site-map .links{
+        margin: 5px auto !important;
+    }
+    footer .footer-wrapper .logo-part {
+        margin: 1px auto !important;
+    }
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+footer .footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+footer .footer-wrapper .logo-part {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-wrapper .logo-part img {
+    max-width: 200px;
+}
+
+footer .footer-wrapper .contact{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-wrapper .contact .a{
+    display: flex;
+    margin: auto 10px;
+    flex-direction: column;
+}
+
+footer .footer-wrapper .contact .b{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-wrapper .contact .a a{
+    color: white;
+    font-weight: 500;
+}
+
+footer .footer-wrapper .contact .b img{
+    width: 20px;
+}
+
+footer .footer-wrapper .contact .b{
+    margin: auto 0px;
+}
+
+footer .footer-wrapper .contact .b a:hover{
+    cursor: pointer !important;
+}
+
+footer .footer-wrapper .site-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .footer-wrapper .site-map .links{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+footer .footer-wrapper .site-map .links p{
+    color: white;
+    font-weight: 600;
+}
+
+footer .footer-wrapper .site-map .links a{
+    color: white;
+    font-weight: 400;
+}
+

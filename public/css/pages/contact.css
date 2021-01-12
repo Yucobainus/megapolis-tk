@@ -1,0 +1,169 @@
+@import '../main.css';
+
+@media screen and (max-width: 900px) {
+    .contact {
+        margin: 0px 10px !important;
+    }
+
+    .contact .wrapper .contact-part {
+        flex-direction: column !important;
+        margin-bottom: 20px;
+    }
+
+    .contact .wrapper .contact-part .left-con .numbers {
+        flex-direction: column !important;
+    }
+
+    .contact .wrapper .form-part form input {
+        width: 90vw !important;
+    }
+
+    .contact .wrapper .form-part form .question {
+        width: 90vw !important;
+    }
+    .contact .wrapper .form-part form .btn {
+        margin: 10px auto !important;
+    }
+}
+
+.contact {
+    margin: 0px 100px;
+}
+
+.contact .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact .wrapper .title {
+    margin: 1em 0px;
+}
+
+.contact .wrapper .title h2 {
+    color: #930625;
+    font-size: 2em;
+}
+
+.contact .wrapper hr {
+    background-color: #930625;
+    box-shadow: none;
+    outline: none;
+    height: 2px;
+}
+
+.contact .wrapper .contact-part {
+    margin: 3em 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact .wrapper .contact-part .left-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.contact .wrapper .contact-part .left-con .numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .wrapper .contact-part .left-con .numbers .numbers-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contact .wrapper .contact-part .left-con .numbers .numbers-block .phone {
+    margin: auto 1em auto 1em;
+}
+
+.contact .wrapper .contact-part .left-con .numbers .numbers-block img {
+    width: 40px;
+}
+
+.contact .wrapper .contact-part .left-con .numbers .numbers-block a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #930625;
+}
+
+.contact .wrapper .contact-part .left-con .social .social-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.contact .wrapper .contact-part .left-con .social .social-block img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact .wrapper .contact-part .left-con .social .social-block a {
+    margin: auto 0px auto 1em;
+    color: #930625;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contact .wrapper .contact-part .map {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+/*Форма*/
+
+.contact .wrapper .form-part form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.contact .wrapper .form-part form p {
+    color: #930625;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.contact .wrapper .form-part form input {
+    height: 2em;
+    margin: 0.5em 0em;
+    width: 20em;
+    outline-color: #930625;
+    color: #930625;
+    font-size: 1.4em;
+    padding: 0.2em;
+}
+
+.contact .wrapper .form-part form .question {
+    height: 10em;
+    width: 25em;
+    margin: 0.5em 0em;
+    outline-color: #930625;
+    color: #930625;
+    padding: 0.2em;
+    font-size: 1.4em;
+    resize: none;
+}
+
+.contact .wrapper .form-part form .btn {
+    height: 2em;
+    width: 10em;
+    background-color: #930625;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.contact .wrapper .form-part form .btn:hover {
+    opacity: 0.7;
+}

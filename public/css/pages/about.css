@@ -1,0 +1,194 @@
+@import '../main.css';
+
+@media screen and (max-width: 768px) {
+    .about {
+        margin: 50px 5px !important;
+    }
+
+    .about .strengh {
+        flex-direction: column !important;
+    }
+
+    .about .logo-photo img {
+        width: 200px !important;
+        margin: 10px auto;
+    }
+
+}
+
+.about .logo-photo{
+    margin: 0px auto;
+}
+
+.about .logo-photo img {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10em;
+}
+
+.about .text p {
+    font-size: 1.5em;
+}
+
+.about .strengh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 0em;
+    padding: 3em;
+}
+
+.about .strengh .s-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 2em;
+    text-align: center;
+    -webkit-box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+    -moz-box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+    box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+}
+
+.about .strengh .s-block:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 2px 3px 11px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 11px -3px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 11px -3px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.about .strengh .s-block {
+    transition: 1.5s;
+}
+
+.about .strengh .s-block .s-text {
+    text-align: center;
+}
+
+.about .strengh .s-block .s-text p {
+    margin: auto;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.about .strengh .s-block .icon {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    margin:0px auto;
+    justify-content: center;
+}
+
+.about .strengh .s-block a {
+    overflow-y: hidden;
+}
+
+.about .strengh .s-block .icon img {
+    width: 100%;
+    max-height: 100px;
+    margin:0px auto;
+    object-fit: contain;
+}
+
+.about hr {
+    background-color: #930625;
+    height: 4px;
+    outline: none;
+    box-shadow: none;
+    margin: 30px auto;
+    border: none;
+    width: 60%;
+}
+
+.about .title {
+    margin: 30px auto;
+}
+
+.about .title h2 {
+    font-size: 2em;
+    color: #930625;
+}
+
+.about .partner-slider {
+    border: 1px solid #930625;
+}
+
+.about .partner-slider .slide {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    outline: none;
+}
+
+.about .partner-slider .slide .logo{
+    max-width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.about .partner-slider .slide .logo img{
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+
+
+.flipbook-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../../flipbook/pics/background.jpg');
+    background-size: cover;
+}
+
+.flipbook-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about .flipbook-wrapper .container .flipbook div {
+    overflow: hidden;
+}
+
+.flipbook-wrapper .menu .selectors img {
+    max-width: 30px;
+    margin: auto 10px;
+}
+
+.flipbook-wrapper .container div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flipbook-wrapper .menu .selectors img:first-child {
+    transform: rotate(180deg);
+}
+
+.flipbook-wrapper .menu .selectors {
+    background-color: rgba(147, 6, 37, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flipbook-wrapper .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
